@@ -1,0 +1,38 @@
+{
+  "vpc-provider:account=102214406966:filter.tag:Name=aws-controltower-VPC:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-08d76b5492f0c1c0e",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Isolated",
+        "type": "Isolated",
+        "subnets": [
+          {
+            "subnetId": "subnet-0910535d40b557128",
+            "cidr": "172.31.64.0/20",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-0f2a7f9a12d2a21d7"
+          },
+          {
+            "subnetId": "subnet-0c2ec7592eed794b9",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0d26722af4ddb8640"
+          },
+          {
+            "subnetId": "subnet-0227e10a6b5a02bec",
+            "cidr": "172.31.80.0/20",
+            "availabilityZone": "eu-central-1c",
+            "routeTableId": "rtb-0ef8a113824a35455"
+          }
+        ]
+      }
+    ]
+  },
+  "availability-zones:account=102214406966:region=eu-central-1": [
+    "eu-central-1a",
+    "eu-central-1b",
+    "eu-central-1c"
+  ]
+}
